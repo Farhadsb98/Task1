@@ -37,6 +37,7 @@
             int r;
             int log = 0;
             int kvadrat;
+            int final = 0;
 
             
 
@@ -51,9 +52,10 @@
               
 
                 kvadrat =  r*r;
+                final += kvadrat;
                
 
-                Console.WriteLine(kvadrat);
+                Console.WriteLine(final);
 
 
 
